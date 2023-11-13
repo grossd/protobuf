@@ -9,13 +9,13 @@ This is a first line
 
 <br/>
 
-A person message includes the fields details required for a person
+A person message includes the fields details required for a person, its a must
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 examples/addressbook.proto
 ```protocol buffer
 31     message Person {
 32       string name = 1;
-33       int32 id = 2;  // Unique ID number for this person.
+33       int32 id = 2;  // Unique ID number for this person. Is a must.
 34       string email = 3;
 ```
 
